@@ -1,16 +1,58 @@
-# React + Vite
+# 🍽️ Home Chef Meals App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Meal Listing
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📋 Display list of meals (static data)
+- ✅ Filter meals (Available / All)
+- 🔃 Sort by price (Low → High / High → Low)
+- ➕ Add meals to selection (no duplicates)
+- 🛒 View selected meals list
+- 💰 Auto calculate total price
+- 🔥 Highlight most expensive meal
+- 💸 Highlight cheapest meal
+- 🧼 Reset selected meals
+- 🔔 Toast notifications for actions
+- 🎨 Reusable UI components (Button, Typography)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- React JS
+- React Hot Toast
+- CSS
+- JavaScript (ES6+)
+
+---
+
+## 📂 Project Structure
+
+src/
+ ├── components/
+ │    ├── MealCard.js
+ │    ├── RButton.js
+ │    ├── Typography.js
+ │
+ ├── constant/
+ │    ├── data.js
+ │    ├── colors.js
+ │
+ ├── screens/
+ │    ├── FoodScreen.js
+ │
+ ├── App.js
+ ├── App.css
+
+---
+
+## ▶️ Getting Started
+
+### 1. Install dependencies
+npm install
+
+### 2. Run project
+npm run dev
